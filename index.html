@@ -1,55 +1,191 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Derek Dimaya - Unity Engineer</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Derek Dimaya | Senior Unity Engineer</title>
+
   <style>
-  body {
-    font-family: Arial;
-    background: #0f172a;
-    color: white;
-    text-align: center;
-    padding: 40px;
-  }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b0f1a;
+      color: #e5e7eb;
+    }
 
-  h1 {
-    color: #38bdf8;
-    font-size: 40px;
-  }
+    header {
+      padding: 80px 20px;
+      text-align: center;
+      background: radial-gradient(circle at top, #1f2a44, #0b0f1a);
+    }
 
-  h2 {
-    color: #a78bfa;
-  }
+    h1 {
+      font-size: 48px;
+      margin: 0;
+      color: #38bdf8;
+    }
 
-  ul {
-    list-style: none;
-    padding: 0;
-  }
+    h2 {
+      color: #a78bfa;
+      margin-top: 10px;
+    }
 
-  li {
-    background: #1e293b;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 8px;
-  }
-</style>
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    h3 {
+      color: #38bdf8;
+      margin-bottom: 15px;
+      border-left: 4px solid #38bdf8;
+      padding-left: 10px;
+    }
+
+    .card {
+      background: #111827;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #1f2a44;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #1f2a44;
+      padding: 6px 10px;
+      margin: 5px;
+      border-radius: 20px;
+      font-size: 13px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      border-top: 1px solid #1f2a44;
+      color: #777;
+    }
+  </style>
 </head>
+
 <body>
+
+<header>
   <h1>Derek Dimaya</h1>
-  <h2>Unity Engineer</h2>
+  <h2>Senior Unity Engineer</h2>
+  <p>8+ Years Experience | Multiplayer Systems | AI | VR/AR | Optimization</p>
+</header>
 
-  <h3>About Me</h3>
-  <p>8+ years experience in Unity game development.</p>
+<div class="container">
 
-  <h3>Skills</h3>
-  <p>Unity, C#, Multiplayer, AI, AR/VR</p>
+  <!-- ABOUT -->
+  <section>
+    <h3>Professional Summary</h3>
+    <div class="card">
+      Senior Unity Engineer with 8+ years of experience designing and developing
+      high-performance 2D/3D games, AR/VR applications, and multiplayer systems.
+      Strong expertise in C#, Unity architecture, gameplay engineering, and optimization.
+      Proven experience working with US and China remote teams and delivering production-scale games.
+    </div>
+  </section>
 
-  <h3>Projects</h3>
-  <ul>
-    <li>Multiplayer Action Game</li>
-    <li>Mobile RPG System</li>
-  </ul>
+  <!-- EXPERIENCE -->
+  <section>
+    <h3>Professional Experience</h3>
 
-  <h3>Contact</h3>
-  <p>nefuture526@outlook.com</p>
+    <div class="card">
+      <b>Senior Unity Engineer (Remote)</b> — USA (2021–2025)
+      <p>• Built large-scale multiplayer games for global audiences</p>
+      <p>• Improved performance by 45% using profiling & optimization</p>
+      <p>• Designed scalable architecture for mobile + PC cross-platform games</p>
+      <p>• Worked with US teams in Agile environment</p>
+    </div>
+
+    <div class="card">
+      <b>Unity Engineer (Remote)</b> — China (2018–2021)
+      <p>• Developed mobile RPG and action games</p>
+      <p>• Implemented combat systems, AI behavior, and gameplay mechanics</p>
+      <p>• Integrated ads and in-app purchase SDKs</p>
+      <p>• Optimized games for low-end Android devices</p>
+    </div>
+
+    <div class="card">
+      <b>Junior Game Developer</b> — Manila (2017–2018)
+      <p>• Built prototype gameplay systems and UI features</p>
+      <p>• Learned Unity engine architecture and C# development</p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section>
+    <h3>Technical Skills</h3>
+    <div class="card">
+      <span class="tag">Unity Engine (Advanced)</span>
+      <span class="tag">C#</span>
+      <span class="tag">Multiplayer (Photon / Netcode)</span>
+      <span class="tag">AI Systems</span>
+      <span class="tag">Pathfinding</span>
+      <span class="tag">AR/VR (XR Toolkit)</span>
+      <span class="tag">Game Optimization</span>
+      <span class="tag">CI/CD</span>
+      <span class="tag">Git</span>
+      <span class="tag">Shaders (HLSL / Shader Graph)</span>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section>
+    <h3>Key Projects</h3>
+
+    <div class="grid">
+      <div class="card">
+        <b>GalaxyWars Online</b>
+        <p>Multiplayer FPS system with real-time sync</p>
+      </div>
+
+      <div class="card">
+        <b>AI Dungeon Explorer</b>
+        <p>Procedural RPG system with AI-driven gameplay</p>
+      </div>
+
+      <div class="card">
+        <b>VR Training Simulation</b>
+        <p>Industrial VR training system for enterprise use</p>
+      </div>
+
+      <div class="card">
+        <b>Mobile RPG Adventure</b>
+        <p>10M+ downloads mobile RPG system</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section>
+    <h3>Contact</h3>
+    <div class="card">
+      Email: newfuture526@outlook.com<br/>
+      Location: Manila, Philippines<br/>
+      Phone: +63 912 102 6514
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  © 2026 Derek Dimaya | Senior Unity Engineer Portfolio
+</footer>
+
 </body>
 </html>
